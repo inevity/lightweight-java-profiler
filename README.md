@@ -10,8 +10,12 @@ First, check out the profiler:
  
 Then change into the directory, and build:
 
+
 cd lightweight-java-profiler-read-only
+
 make all
+
+
 It defaults to a 32-bit build; it will place the resulting liblagent.so file in the build-32 directory; if you want to have a 64-bit build, say "make BITS=64 all" instead.
 
 To use the profiler, you can invoke Java as follows:
